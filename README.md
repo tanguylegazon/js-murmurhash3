@@ -1,6 +1,6 @@
 # MurmurHash3 JavaScript Implementation
 
-A straightforward and optimized JavaScript implementation of the non-cryptographic MurmurHash3 algorithm.
+A straightforward and optimized JavaScript implementation of the non-cryptographic MurmurHash3 hashing algorithm.
 
 ## Project files
 
