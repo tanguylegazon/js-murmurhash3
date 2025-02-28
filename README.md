@@ -1,35 +1,24 @@
-# {Project name}
+# MurmurHash3 JavaScript Implementation
 
-{Project description}
-
-## Features
-
-- {Feature 1}
-- {Feature 2}
-- {Feature 3}
+A straightforward and optimized JavaScript implementation of the non-cryptographic MurmurHash3 algorithm.
 
 ## Project files
 
-- `{file 1}`: {description}
-- `{file 2}`: {description}
-- `{file 3}`: {description}
+- `murmurhash3.js`: JavaScript module for generating hashes.
 
 ## Usage
 
 ### Setup
 
-{Setup instructions}
+To use this hashing function:
 
-### Functionality
+Clone this repository and import the MurmurHash3 function in your main JavaScript file.
+```javascript
+import {murmurHash3_32} from 'relative/path/to/murmurhash3.js';
+```
 
-- {Functionality 1}
-- {Functionality 2}
-- {Functionality 3}
+> **Note:** Ensure that your main JavaScript file is included as a module in your HTML file.
 
-## License and third-party licenses
+## License
 
-
-This project is licensed under the terms of the {project license}. See the [LICENSE](LICENSE) file for details.
-
-This project includes third-party materials, which are distributed under their own respective licenses. See the
-[THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md) file for details.
+This project is licensed under the terms of the MIT Licence. See the [LICENSE](LICENSE) file for details.
