@@ -3,6 +3,14 @@
  * A copy of the license is available at https://github.com/tanguylegazon/js-murmurhash3/blob/main/LICENSE.
  */
 
+/**
+ * @function murmurHash3_32
+ * @description This function computes the 32-bit MurmurHash3 hash of an ASCII-encoded string.
+ * @param {string} key - The ASCII-encoded string to hash.
+ * @param {number} [seed=0] - The seed value.
+ *
+ * @returns {number} The 32-bit hash value.
+ */
 function murmurHash3_32(key, seed = 0) {
     const len = key.length;
     const c1 = 0xcc9e2d51, c2 = 0x1b873593;
